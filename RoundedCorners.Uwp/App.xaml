@@ -1,7 +1,6 @@
-﻿<Application
-    x:Class="RoundedCorners.Uwp.App"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:RoundedCorners.Uwp">
-
-</Application>
+﻿<xaml:XamlApplication
+  x:Class="RoundedCorners.Uwp.App"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="using:RoundedCorners.Uwp"
+  xmlns:xaml="using:Microsoft.Toolkit.Win32.UI.XamlHost" />
