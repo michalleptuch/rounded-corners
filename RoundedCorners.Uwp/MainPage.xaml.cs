@@ -1,4 +1,6 @@
-﻿using Windows.UI.Xaml.Controls;
+﻿using RoundedCorners.Uwp.Helpers;
+
+using Windows.UI.Xaml.Controls;
 
 namespace RoundedCorners.Uwp
 {
@@ -7,6 +9,8 @@ namespace RoundedCorners.Uwp
     public MainPage()
     {
       this.InitializeComponent();
+
+      CompositionHelper.Initialize(this, HostBackDropGrid);
     }
   }
 }

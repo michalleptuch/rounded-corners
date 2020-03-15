@@ -6,13 +6,6 @@
   xmlns:local="using:RoundedCorners.Uwp"
   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
   mc:Ignorable="d">
-  <Page.Background>
-    <AcrylicBrush
-      BackgroundSource="HostBackdrop"
-      FallbackColor="{ThemeResource SystemChromeDisabledHighColor}"
-      TintColor="{ThemeResource SystemChromeMediumColor}"
-      TintOpacity="0" />
-  </Page.Background>
 
   <Page.Resources>
     <Style x:Key="ExitButtonStyle" TargetType="Button">
@@ -97,43 +90,46 @@
     </Style>
   </Page.Resources>
 
-  <Grid CornerRadius="8">
-    <Grid.Background>
-      <AcrylicBrush
-        BackgroundSource="HostBackdrop"
-        FallbackColor="{ThemeResource SystemChromeDisabledHighColor}"
-        TintColor="{ThemeResource SystemChromeMediumColor}"
-        TintOpacity="0.7" />
-    </Grid.Background>
-    <Grid.RowDefinitions>
-      <RowDefinition Height="40" />
-      <RowDefinition Height="*" />
-    </Grid.RowDefinitions>
+  <Grid>
+    <Grid x:Name="HostBackDropGrid" />
+    <Grid CornerRadius="8">
+      <Grid.Background>
+        <AcrylicBrush
+          BackgroundSource="HostBackdrop"
+          FallbackColor="{ThemeResource SystemChromeDisabledHighColor}"
+          TintColor="{ThemeResource SystemChromeMediumColor}"
+          TintOpacity="0.7" />
+      </Grid.Background>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="40" />
+        <RowDefinition Height="*" />
+      </Grid.RowDefinitions>
 
-    <TextBlock
-      Margin="12,0,0,0"
-      HorizontalAlignment="Left"
-      VerticalAlignment="Center"
-      Text="Hello world!" />
+      <TextBlock
+        Margin="12,0,0,0"
+        HorizontalAlignment="Left"
+        VerticalAlignment="Center"
+        Text="Hello world!" />
 
-    <Button
-      x:Name="ExitButton"
-      Width="40"
-      Height="40"
-      HorizontalAlignment="Right"
-      x:FieldModifier="public"
-      Style="{StaticResource ExitButtonStyle}">
-      <Button.Content>
-        <FontIcon FontSize="13" Glyph="" />
-      </Button.Content>
-    </Button>
+      <Button
+        x:Name="ExitButton"
+        Width="40"
+        Height="40"
+        HorizontalAlignment="Right"
+        x:FieldModifier="public"
+        Style="{StaticResource ExitButtonStyle}">
+        <Button.Content>
+          <FontIcon FontSize="13" Glyph="" />
+        </Button.Content>
+      </Button>
 
-    <Pivot Grid.Row="1">
-      <PivotItem Header="First" />
-      <PivotItem Header="Second" />
-      <PivotItem Header="Third" />
-      <PivotItem Header="Fourth" />
-      <PivotItem Header="Fifth" />
-    </Pivot>
+      <Pivot Grid.Row="1">
+        <PivotItem Header="First" />
+        <PivotItem Header="Second" />
+        <PivotItem Header="Third" />
+        <PivotItem Header="Fourth" />
+        <PivotItem Header="Fifth" />
+      </Pivot>
+    </Grid>
   </Grid>
 </Page>
