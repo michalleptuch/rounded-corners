@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundedCorners.Uwp", "RoundedCorners.Uwp\RoundedCorners.Uwp.csproj", "{DD39F052-DEC1-46DC-B752-5B22567B9097}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundedCorners", "RoundedCorners\RoundedCorners.csproj", "{5F84D490-E240-4DD1-A507-5C48E29DB541}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoundedCorners", "RoundedCorners\RoundedCorners.csproj", "{5F84D490-E240-4DD1-A507-5C48E29DB541}"
+EndProject
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "RoundedCorners.Package", "RoundedCorners.Package\RoundedCorners.Package.wapproj", "{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,36 @@ Global
 		{5F84D490-E240-4DD1-A507-5C48E29DB541}.Release|x64.Build.0 = Release|Any CPU
 		{5F84D490-E240-4DD1-A507-5C48E29DB541}.Release|x86.ActiveCfg = Release|Any CPU
 		{5F84D490-E240-4DD1-A507-5C48E29DB541}.Release|x86.Build.0 = Release|Any CPU
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Debug|ARM.ActiveCfg = Debug|ARM
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Debug|ARM.Build.0 = Debug|ARM
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Debug|ARM.Deploy.0 = Debug|ARM
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Debug|ARM64.Build.0 = Debug|ARM64
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Debug|x64.ActiveCfg = Debug|x64
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Debug|x64.Build.0 = Debug|x64
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Debug|x64.Deploy.0 = Debug|x64
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Debug|x86.ActiveCfg = Debug|x86
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Debug|x86.Build.0 = Debug|x86
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Debug|x86.Deploy.0 = Debug|x86
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Release|ARM.ActiveCfg = Release|ARM
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Release|ARM.Build.0 = Release|ARM
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Release|ARM.Deploy.0 = Release|ARM
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Release|ARM64.ActiveCfg = Release|ARM64
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Release|ARM64.Build.0 = Release|ARM64
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Release|ARM64.Deploy.0 = Release|ARM64
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Release|x64.ActiveCfg = Release|x64
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Release|x64.Build.0 = Release|x64
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Release|x64.Deploy.0 = Release|x64
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Release|x86.ActiveCfg = Release|x86
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Release|x86.Build.0 = Release|x86
+		{FC745391-370C-4BA7-8A52-D8A4C7C3DDE3}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
