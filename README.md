@@ -1,7 +1,7 @@
 # RoundedCorners
 This odd app use XAML Islands (WPF + UWP) and some tricks to enable rounded corners. 
 
-Minimum OS/SDK version: 10.0.18362.0
+Minimum OS/SDK version: 10.0.18362.0  
 .NET Core version: 3.x
 
 To do:
